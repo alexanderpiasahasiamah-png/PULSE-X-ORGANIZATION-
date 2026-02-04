@@ -1,0 +1,26 @@
+/* Styling for Pulse X */
+body { font-family: 'Arial', sans-serif; margin: 0; padding: 0; color: #333; }
+.navbar { background: #000; color: #fff; display: flex; justify-content: space-between; padding: 15px 50px; position: sticky; top: 0; z-index: 100; }
+.nav-links { list-style: none; display: flex; gap: 20px; }
+.nav-links a { color: white; text-decoration: none; font-weight: bold; }
+
+.hero { background: #0044cc; color: white; text-align: center; padding: 80px 20px; }
+.section { padding: 60px 50px; text-align: center; }
+.dark { background: #f4f4f4; }
+
+.founders { display: flex; justify-content: center; gap: 40px; margin-top: 30px; }
+.card { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 250px; }
+.card img { width: 100%; border-radius: 5px; }
+
+.content-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; text-align: left; align-items: center; }
+.text-block ul { line-height: 2; }
+
+/* Healthcare Portal */
+.healthcare-page { background: #eef2f3; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+.container { background: white; padding: 40px; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); width: 80%; max-width: 600px; text-align: center; }
+textarea { width: 100%; height: 100px; margin: 20px 0; padding: 10px; }
+.btn { padding: 12px 25px; border-radius: 5px; color: white; text-decoration: none; font-weight: bold; border: none; cursor: pointer; display: inline-block; }
+.whatsapp { background: #25D366; }
+.telegram { background: #0088cc; }
+.web { background: #333; }
+.web-chat-box { margin-top: 20px; border: 1px solid #ddd; padding: 15px; }
