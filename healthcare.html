@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Healthcare | Pulse X</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="healthcare-page">
+    <div class="container">
+        <h1>Pulse X Healthcare</h1>
+        <p>You can identify your illness by inputting your symptoms right here:</p>
+        <textarea id="symptomInput" placeholder="Enter symptoms here..."></textarea>
+        <button class="btn-main" onclick="alert('Analyzing symptoms...')">Check Symptoms</button>
+
+        <div class="chat-options">
+            <h3>Do you want to chat with Pulse X healthcare AI assistant?</h3>
+            <div class="button-group">
+                <a href="https://wa.me/YOUR_LINK" class="btn whatsapp">WhatsApp</a>
+                <a href="https://t.me/YOUR_LINK" class="btn telegram">Telegram</a>
+                <button class="btn web" onclick="toggleWebChat()">Chat on Website</button>
+            </div>
+        </div>
+
+        <div id="webChat" class="web-chat-box" style="display:none;">
+            <div class="chat-window" id="display">
+                <p><strong>Pulse X AI:</strong> How can I help you today?</p>
+            </div>
+            <input type="text" placeholder="Type message...">
+            <button>Send</button>
+        </div>
+    </div>
+
+    <script>
+        function toggleWebChat() {
+            var x = document.getElementById("webChat");
+            x.style.display = (x.style.display === "none") ? "block" : "none";
+        }
+    </script>
+</body>
+</html>
